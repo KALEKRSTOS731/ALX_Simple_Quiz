@@ -1,4 +1,6 @@
 
-function checkAnswer() {}
+function checkAnswer() {
+    var correctAnswer="4";
+}
 
 
