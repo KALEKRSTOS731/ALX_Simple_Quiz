@@ -9,7 +9,7 @@ const feedbackElement = document.getElementById("feedback");
 if (userAnswer === correctAnswer) {
     feedbackElement.textContent = "Correct! Well done.";
   } else {
-    feedbackElement.textContent = "Incorrect. Try again!";
+    feedbackElement.textContent = "Incorrect. That is incorrect";
   }
 
 
