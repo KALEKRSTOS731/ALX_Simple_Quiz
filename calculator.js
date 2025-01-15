@@ -10,6 +10,7 @@ document.getElementById('add').addEventListener('click', function() {
 });
 function subtract(number1, number2) {
     return number1 - number2;
+}
 
     document.getElementById('subtract').addEventListener('click', function() {
         const number1 = parseFloat(document.getElementById('number1').value) || 0;
@@ -17,4 +18,4 @@ function subtract(number1, number2) {
         const result = subtract(number1, number2);
         document.getElementById('calculation-result').textContent = result;
     });
-}
+
